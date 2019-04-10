@@ -1,0 +1,6 @@
+fun1:
+    handler: handler.hello
+    events:
+     - http:
+         path: fun1
+         method: get
